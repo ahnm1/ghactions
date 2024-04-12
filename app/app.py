@@ -19,7 +19,7 @@ def get_result(a, b, c):
         return Calc(a, b).mul()
 
 
-with st.form('calc'):
+with st.form('calc', border=False):
     rolldown = st.selectbox('Method', options=['add', 'sub', 'mul'])
     first = st.number_input('Firs number', 0)
     second = st.number_input('Second number', 0)

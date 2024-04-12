@@ -1,10 +1,14 @@
-def add(a: int, b: int):
-    return a+b
 
+class Calc:
+    def __init__(self, a, b) -> None:
+        self.a = a
+        self.b = b
 
-def sub(a: int, b: int):
-    return a-b
+    def add(self):
+        return self.a+self.b
 
+    def sub(self):
+        return self.a-self.b
 
-def mul(a: int, b: int):
-    return a*b
+    def mul(self):
+        return self.a*self.b

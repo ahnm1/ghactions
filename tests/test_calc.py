@@ -1,0 +1,13 @@
+from calc.calc import Calc
+
+
+def test_add():
+    assert Calc(2, 2).add() == 4
+
+
+def test_sub():
+    assert Calc(4, 2).sub() == 2
+
+
+def test_mul():
+    assert Calc(2, 2).mul() == 4

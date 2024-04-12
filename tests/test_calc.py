@@ -1,4 +1,4 @@
-from calc.calc import Calc
+from app.calc.calc import Calc
 
 
 def test_add():
@@ -10,4 +10,4 @@ def test_sub():
 
 
 def test_mul():
-    assert Calc(2, 2).mul() == 4
+    assert Calc(2, 4).mul() == 8

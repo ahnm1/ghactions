@@ -1,4 +1,4 @@
-from calc.calc import add, sub
+from calc.calc import add, sub, mul
 
 
 def test_add():
@@ -7,3 +7,7 @@ def test_add():
 
 def test_sub():
     assert sub(4, 2) == 2
+
+
+def test_mul():
+    assert mul(2, 2) == 4

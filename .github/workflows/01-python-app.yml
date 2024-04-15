@@ -4,13 +4,14 @@
 name: Python application
 
 on:
+  ## Triggers whenever a push was made to a .py file
   push:
     branches: [ "main" ]
-    paths: 
+    paths:
       - "**.py"
   pull_request:
     branches: [ "main" ]
-    paths: 
+    paths:
       - "**.py"
   workflow_dispatch:
 

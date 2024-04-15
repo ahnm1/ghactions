@@ -14,6 +14,9 @@ Each workflow consists of one or more jobs, and each job consists of one or more
   - [Events that trigger workflows](<https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows>)
   - [Workflow Syntax](<https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#on>)
 
+## Tagging
+- [__ACR image tag best practices__](<https://learn.microsoft.com/en-us/azure/container-registry/container-registry-image-tag-version>)
+
 ## Links
 - [Building and testing Python](<https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python>)
 - [Workflow syntax for GitHub Actions](<https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#jobsjob_idstrategy>)  

@@ -32,20 +32,3 @@ jobs:
         push: true
         tags: sdailabsboxeuwacr01.azurecr.io/${{ secrets.AzureAppService_ContainerUsername_daa1c22753664ee6913bc2c12707f733 }}/ghactions:${{ github.sha }}
         file: ./Dockerfile
-
-  # deploy:
-  #   runs-on: ubuntu-latest
-  #   needs: build
-  #   environment:
-  #     name: 'production'
-  #     url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
-
-  #   steps:
-  #   - name: Deploy to Azure Web App
-  #     id: deploy-to-webapp
-  #     uses: azure/webapps-deploy@v2
-  #     with:
-  #       app-name: 'sdai-sbox-gh-actions-app001'
-  #       slot-name: 'production'
-  #       publish-profile: ${{ secrets.AzureAppService_PublishProfile_192e6045d819434c914f6e189154ade3 }}
-  #       images: 'sdailabsboxeuwacr01.azurecr.io/${{ secrets.AzureAppService_ContainerUsername_daa1c22753664ee6913bc2c12707f733 }}/ghactions:${{ github.sha }}'

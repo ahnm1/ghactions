@@ -15,3 +15,6 @@ class Calc:
 
     def div(self):
         return self.a / self.b
+
+    def mod(self):
+        return self.a % self.b

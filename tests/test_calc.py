@@ -15,3 +15,7 @@ def test_mul():
 
 def test_div():
     assert Calc(12, 2).div() == 6
+
+
+def test_mod():
+    assert Calc(2, 5).mod() == 2

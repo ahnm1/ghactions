@@ -7,7 +7,8 @@ chars = {
     'add': '+',
     'sub': '-',
     'mul': '*',
-    'div': '/'
+    'div': '/',
+    'mod': '%'
 }
 
 
@@ -20,10 +21,15 @@ def get_result(a, b, c):
         return Calc(a, b).mul()
     if c == 'div':
         return Calc(a, b).div()
+    if c == 'mod':
+        return Calc(a, b).mod()
 
 
 with st.form('calc'):
-    rolldown = st.selectbox('Method', options=['add', 'sub', 'mul', 'div'])
+    rolldown = st.selectbox(
+        'Method',
+        options=list(chars.keys())
+    )
     first = st.number_input('First number', 0)
     second = st.number_input('Second number', 0)
 

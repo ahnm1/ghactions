@@ -4,6 +4,15 @@ learning about github actions
 ## Workflows
 Each workflow consists of one or more jobs, and each job consists of one or more steps.
 
+- CI: run tests, build & push image
+  - [Test](<.github/workflows/01-python-app.yml>)
+  - [Build & Push](<.github/workflows/02-build_push_sdai-sbox-gh-actions-app001.yml>)
+- CD: deploy, find correct trigger: on success
+  - [Deploy](<.github/workflows/03-deploy_sdai-sbox-gh-actions-app001.yml>)
+- Different triggers
+  - [Triggering a workflow](<https://docs.github.com/en/actions/using-workflows/triggering-a-workflow>)
+  - [Events that trigger workflows](<https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows>)
+
 ## Links
 - [Building and testing Python](<https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python>)
 - [Workflow syntax for GitHub Actions](<https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#jobsjob_idstrategy>)  

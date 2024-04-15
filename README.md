@@ -12,6 +12,7 @@ Each workflow consists of one or more jobs, and each job consists of one or more
 - Different triggers
   - [Triggering a workflow](<https://docs.github.com/en/actions/using-workflows/triggering-a-workflow>)
   - [Events that trigger workflows](<https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows>)
+  - [Workflow Syntax](<https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#on>)
 
 ## Links
 - [Building and testing Python](<https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python>)

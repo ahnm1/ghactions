@@ -5,6 +5,7 @@ name: Deploy app to Azure - sdai-sbox-gh-actions-app001
 
 on:
   workflow_run:
+    # Triggers when "Build container app to Azure Container Registry - sdai-sbox-gh-actions-app001" is done.
     workflows: ["Build container app to Azure Container Registry - sdai-sbox-gh-actions-app001"]
     branches: ["main"]
     types: 
@@ -28,7 +29,7 @@ jobs:
 
     - name: Deploy to Azure Web App
       id: deploy-to-webapp
-      uses: azure/webapps-deploy@v2
+      uses: azure/webapps-deploy@v3
       with:
         app-name: "sdai-sbox-gh-actions-app001"
         slot-name: "production"

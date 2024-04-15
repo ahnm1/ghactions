@@ -6,7 +6,8 @@ st.title('Calculator')
 chars = {
     'add': '+',
     'sub': '-',
-    'mul': '*'
+    'mul': '*',
+    'div': '/'
 }
 
 
@@ -17,9 +18,11 @@ def get_result(a, b, c):
         return Calc(a, b).sub()
     if c == 'mul':
         return Calc(a, b).mul()
+    if c == 'div':
+        return Calc(a, b).div()
 
 
-with st.form('calc', border=False):
+with st.form('calc'):
     rolldown = st.selectbox('Method', options=['add', 'sub', 'mul'])
     first = st.number_input('Firs number', 0)
     second = st.number_input('Second number', 0)

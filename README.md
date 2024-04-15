@@ -1,5 +1,5 @@
 # ghactions
-learning about github actions
+Learn GitHub Actions
 
 ## Workflows
 Each workflow consists of one or more jobs, and each job consists of one or more steps.

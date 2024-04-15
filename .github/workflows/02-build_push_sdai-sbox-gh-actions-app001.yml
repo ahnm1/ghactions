@@ -9,7 +9,7 @@ on:
     workflows: ["Python application"]
     branches: ["main"]
     types: 
-      - completed
+      - completed # requested, in_progress
   workflow_dispatch:
 
 jobs:

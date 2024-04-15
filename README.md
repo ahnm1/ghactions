@@ -7,7 +7,7 @@ Each workflow consists of one or more jobs, and each job consists of one or more
 - CI: run tests, build & push image
   - [Test](<.github/workflows/01-python-app.yml>)
   - [Build & Push](<.github/workflows/02-build_push_sdai-sbox-gh-actions-app001.yml>)
-- CD: deploy, find correct trigger: on success
+- CD: deploy, using correct trigger.
   - [Deploy](<.github/workflows/03-deploy_sdai-sbox-gh-actions-app001.yml>)
 - Different triggers
   - [Triggering a workflow](<https://docs.github.com/en/actions/using-workflows/triggering-a-workflow>)

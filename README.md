@@ -17,6 +17,8 @@ Each workflow consists of one or more jobs, and each job consists of one or more
 ## ACR
 - [__Image tag best practices__](<https://learn.microsoft.com/en-us/azure/container-registry/container-registry-image-tag-version>)
 - [__Retention policy for unused images__](<https://learn.microsoft.com/en-us/azure/container-registry/container-registry-retention-policy>)
+  - Command group 'acr config retention' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus
+  - Policies are only supported for managed registries in Premium SKU. (Our sbox is "Standard")
 
 ## Links
 - [Building and testing Python](<https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python>)

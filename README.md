@@ -9,7 +9,7 @@ Each workflow consists of one or more jobs, and each job consists of one or more
   - [Build & Push](<.github/workflows/02-build_push_sdai-sbox-gh-actions-app001.yml>)
 - CD: deploy, using correct trigger.
   - [Deploy](<.github/workflows/03-deploy_sdai-sbox-gh-actions-app001.yml>)
-- Different triggers
+- Different triggers (Documentation)
   - [Triggering a workflow](<https://docs.github.com/en/actions/using-workflows/triggering-a-workflow>)
   - [Events that trigger workflows](<https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows>)
   - [Workflow Syntax](<https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#on>)

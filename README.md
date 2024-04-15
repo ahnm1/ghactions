@@ -12,3 +12,12 @@ Each workflow consists of one or more jobs, and each job consists of one or more
 - [upload-artifact](<https://github.com/actions/upload-artifact>)
 - To use a pre-installed version of Python or PyPy on a GitHub-hosted runner, use the [setup-python action](<https://github.com/actions/setup-python>).
 - External reading and explanation [link](<https://www.learnenough.com/blog/git-actions-tutorial>) 
+
+## Testing
+Running tests in GitHub Actions
+
+```yml
+- name: Test with pytest
+      run: |
+        python -m pytest # <--
+```

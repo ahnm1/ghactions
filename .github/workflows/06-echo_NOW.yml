@@ -1,0 +1,13 @@
+name: Echo NOW
+
+on: 
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo current date
+        run: echo $NOW # UTC time

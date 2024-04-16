@@ -23,11 +23,15 @@ Each workflow consists of one or more jobs, and each job consists of one or more
 ## Links
 - [Building and testing Python](<https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python>)
 - [Workflow syntax for GitHub Actions](<https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#jobsjob_idstrategy>)  
-- You can cache and restore the dependencies using the [setup-python action](<https://github.com/actions/setup-python>).  
+- You can cache and restore the dependencies using the [setup-python action](<https://github.com/actions/setup-python>)
+- [Contexts](<https://docs.github.com/en/actions/learn-github-actions/contexts>)
 - [Starter workflow for python-app](<https://github.com/actions/starter-workflows/blob/main/ci/python-app.yml>)
+- [Starter Action Workflows to deploy to Azure](<https://github.com/Azure/actions-workflow-samples>)
 - [upload-artifact](<https://github.com/actions/upload-artifact>)
+- [Storing workflow data as artifacts](<https://docs.github.com/en/actions/using-workflows/storing-workflow-data-as-artifacts>)
 - To use a pre-installed version of Python or PyPy on a GitHub-hosted runner, use the [setup-python action](<https://github.com/actions/setup-python>).
-- External reading and explanation [link](<https://www.learnenough.com/blog/git-actions-tutorial>) 
+- [Build and Push wheels](<https://andrewpwheeler.com/2022/05/10/building-wheel-files-in-github-actions/>)
+- External reading and explanation of GitHub Actions[link](<https://www.learnenough.com/blog/git-actions-tutorial>) 
 
 ## Testing
 Running tests in GitHub Actions

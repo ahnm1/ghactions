@@ -1,8 +1,7 @@
 name: Set date as env. variable
-
+# This var is only available in this workflow
 on: 
-  push:
-    branches: ["main"]
+# Manual trigger only
   workflow_dispatch:
 
 jobs:

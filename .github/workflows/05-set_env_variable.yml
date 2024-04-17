@@ -15,4 +15,4 @@ jobs:
       - name: Echo current date
         run: echo $NOW # UTC time
       - name: Echo Env var. set in repo
-        run: echo ${{ vars.MY_VAR }}
+        run: echo $MY_VAR

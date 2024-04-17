@@ -8,7 +8,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env: 
-      MY_VAR: ${{ vars.MY_VAR }}
+      MY_VAR: ${{ secrets.MY_VAR }}
     steps:
       - name: Set current date as env variable
         run: echo "NOW=$(date +'%Y-%m-%dT%H:%M:%S')" >> $GITHUB_ENV
@@ -16,7 +16,7 @@ jobs:
         run: echo $NOW # UTC time
       - name: Echo Env var. set in repo
         run: |
-          echo $MY_VAR
+          echo $MY_VAR MY_VAR secret
           echo "${{ vars.MY_VAR }} vars"
           echo "${{ env.MY_VAR }} env"
           echo "${{ secrets.MY_VAR }} secrets"

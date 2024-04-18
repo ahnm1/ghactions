@@ -53,6 +53,11 @@ Running tests in GitHub Actions
 - [Starter Action Workflows to deploy to Azure](<https://github.com/Azure/actions-workflow-samples>)
 - [Tutorial: Deploy to App Service and connect to a database](<https://learn.microsoft.com/en-gb/azure/app-service/app-service-sql-asp-github-actions>)
 
+## GitHub Actions Costs & Billing
+- [About Billing](<https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions>)
+- [About Spending limits](<https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions#about-spending-limits>)
+- [Per minute rates](<https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions#per-minute-rates>)
+
 ## Links
 - [Starter workflow for python-app](<https://github.com/actions/starter-workflows/blob/main/ci/python-app.yml>)
 - [Building and testing Python](<https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python>)

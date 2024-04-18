@@ -57,6 +57,8 @@ Running tests in GitHub Actions
 - [About Billing](<https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions>)
 - [About Spending limits](<https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions#about-spending-limits>)
 - [Per minute rates](<https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions#per-minute-rates>)
+- [Creating configuration variables for an organization](<https://docs.github.com/en/actions/learn-github-actions/variables#creating-configuration-variables-for-an-organization>)
+  - Organization-level secrets and variables are not accessible by private repositories for GitHub Free
 
 ## Links
 - [Starter workflow for python-app](<https://github.com/actions/starter-workflows/blob/main/ci/python-app.yml>)

@@ -17,4 +17,4 @@ class Calc:
         return self.a / self.b
 
     def mod(self):
-        return self.a - self.b
+        return self.a % self.b

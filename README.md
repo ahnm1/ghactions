@@ -21,6 +21,13 @@ Each workflow consists of one or more jobs, and each job consists of one or more
   - Command group 'acr config retention' is in preview and under development. Reference and support levels: https://aka.ms/CLI_refstatus
   - Policies are only supported for managed registries in Premium SKU. (Our sbox is "Standard")
 
+### More on tagging
+- __git commit__ – works until you start supporting base image updates, where your build system will kick off, with the same git commit as the previous built. However, the base image will have new content. Using a git commit winds up being a semi-stable tag.
+- __date-time-stamp__ – this is a fairly common approach as you can clearly tell when the image was built. But, how do correlate it back to your build system? Do you have to find the build that was completed at the same time? What time zone are you in? Are all your build systems calibrated to UTC?
+- __digest__ – it’s unique, or should be. But, it’s really not usable as it’s just toooooo long. And, it doesn’t really correlate with anything easily found.
+- __build id__ – this one is __closest to the best__ as its likely incremental, gives you correlation back to the specific build to find all the artifacts and logs.
+- __build_system-build_id__ – If your company has __several build systems__, prefixing the tag with the build system helps you differentiate the API team’s Jenkins build system from the Web teams VSTS build system.
+
 ## Secrets
 Under `Settings` tab for the repository, go to `Secrets and variables` in the `Security` section.  
 Here you can set __environment variables, repository variables, environment secrets__ and __repository secrets__

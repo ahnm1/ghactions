@@ -33,4 +33,4 @@ r = requests.post(
     headers=headers
 )
 
-r.headers
+print(r.headers)

@@ -49,9 +49,12 @@ Running tests in GitHub Actions
         python -B -m pytest # no cache
 ```
 
+## Azure
+- [Starter Action Workflows to deploy to Azure](<https://github.com/Azure/actions-workflow-samples>)
+- [Tutorial: Deploy to App Service and connect to a database](<https://learn.microsoft.com/en-gb/azure/app-service/app-service-sql-asp-github-actions>)
+
 ## Links
 - [Starter workflow for python-app](<https://github.com/actions/starter-workflows/blob/main/ci/python-app.yml>)
-- [Starter Action Workflows to deploy to Azure](<https://github.com/Azure/actions-workflow-samples>)
 - [Building and testing Python](<https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python>)
 - [Workflow syntax for GitHub Actions](<https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#jobsjob_idstrategy>)  
 - [Storing workflow data as artifacts](<https://docs.github.com/en/actions/using-workflows/storing-workflow-data-as-artifacts>)

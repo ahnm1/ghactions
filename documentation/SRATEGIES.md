@@ -44,5 +44,5 @@ jobs:
           pip install -r requirements.txt
 
       - name: execute py script # run script.py
-        run: python /interactive/script.py
+        run: python script.py
 ```

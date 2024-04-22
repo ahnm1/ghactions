@@ -1,4 +1,4 @@
-name: Using tokens
+name: Using GitHub Variables
 
 on:
   workflow_dispatch:

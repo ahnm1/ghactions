@@ -72,6 +72,7 @@ Running tests in GitHub Actions
 - [Workflow syntax for GitHub Actions](<https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#jobsjob_idstrategy>)  
 - [Storing workflow data as artifacts](<https://docs.github.com/en/actions/using-workflows/storing-workflow-data-as-artifacts>)
 - [upload-artifact](<https://github.com/actions/upload-artifact>)
+  - Artifacts allow you to persist data after a job has completed, and share that data with another job in the same workflow.
 - You can cache and restore the dependencies using the [setup-python action](<https://github.com/actions/setup-python>)
 - To use a pre-installed version of Python or PyPy on a GitHub-hosted runner, use the [setup-python action](<https://github.com/actions/setup-python>).
 - [Build and Push wheels](<https://andrewpwheeler.com/2022/05/10/building-wheel-files-in-github-actions/>)

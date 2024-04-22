@@ -5,11 +5,10 @@ name: Build container app to Azure Container Registry - sdai-sbox-gh-actions-app
 
 on:
   workflow_run:
-    # Triggers when "01-python-app.yml" is done.
     workflows: ["Python application"]
     branches: ["main"]
     types: 
-      - completed # requested, in_progress
+      - completed
   workflow_dispatch:
 
 jobs:

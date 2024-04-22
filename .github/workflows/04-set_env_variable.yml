@@ -11,7 +11,7 @@ jobs:
       - name: Set current date as env variable
         run: echo "NOW=$(date +'%Y-%m-%dT%H:%M:%S')" >> $GITHUB_ENV
       - name: Echo current date
-        run: echo $NOW # UTC time
+        run: echo $NOW 
       - name: Echo Env var. set in repo
         run: |
           echo $MY_VAR - echoes MY_VAR workflow env

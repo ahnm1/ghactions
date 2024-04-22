@@ -1,0 +1,16 @@
+name: Using tokens
+
+on:
+  workflow_dispatch:
+
+jobs:
+  print_some:
+    runs-on: ubuntu-latest
+    steps:
+    - name: print
+      run: |
+        echo Repo - ${{ github.repository }}
+        echo Sha - ${{ github.sha }}
+        echo Owner - ${{ github.repository_owner }}
+        
+

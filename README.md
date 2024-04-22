@@ -1,7 +1,7 @@
 # omega.cicd_sbox
-Learn GitHub Actions
+Yaml examples:
 
-- [Build & Test](<.github/workflows/01-python-app.yml>)
+- [Lint & Test](<.github/workflows/01-python-app.yml>)
 - [Build & Push to ACR](<.github/workflows/02-build_push_sdai-sbox-gh-actions-app001.yml>)
 - [Deploy Azure Web App](<.github/workflows/03-deploy_sdai-sbox-gh-actions-app001.yml>)
 - [Trigger with Python](<.github/workflows/05-repository_dispatch-event.yml>) (repository_dispatch)
@@ -23,7 +23,7 @@ Each workflow consists of one or more jobs, and each job consists of one or more
 ## Secrets
 Under `Settings` tab for the repository, go to `Secrets and variables` in the `Security` section.  
 Here you can set __environment variables, repository variables, environment secrets__ and __repository secrets__
-- [Using secrets in GitHub Actions](<https://docs.github.com/en/actions/security-guides/using-secrets-in-github-actions>)
+- [About secrets in GitHub Actions](<https://docs.github.com/en/actions/security-guides/using-secrets-in-github-actions>)
 - [About Variables](<https://docs.github.com/en/actions/learn-github-actions/variables#about-variables>)
 - [Contexts](<https://docs.github.com/en/actions/learn-github-actions/contexts>)
 

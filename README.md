@@ -1,5 +1,10 @@
-# ghactions
+# omega.cicd_sbox
 Learn GitHub Actions
+
+- [Build & Test](<.github/workflows/01-python-app.yml>)
+- [Build & Push to ACR](<.github/workflows/02-build_push_sdai-sbox-gh-actions-app001.yml>)
+- [Deploy Azure Web App](<.github/workflows/03-deploy_sdai-sbox-gh-actions-app001.yml>)
+- [Trigger with Python](<.github/workflows/05-repository_dispatch-event.yml>) (repository_dispatch)
 
 ## Workflows
 Each workflow consists of one or more jobs, and each job consists of one or more steps.
@@ -74,3 +79,4 @@ Running tests in GitHub Actions
 - [Adding Self-hosted runners](<https://docs.github.com/en/actions/hosting-your-own-runners/managing-self-hosted-runners/adding-self-hosted-runners>)
 - [About Self-hosted runners](<https://docs.github.com/en/actions/hosting-your-own-runners/managing-self-hosted-runners/about-self-hosted-runners>) 
   - "We recommend that you only use self-hosted runners with private repositories. This is because forks of your public repository can potentially run dangerous code on your self-hosted runner machine by creating a pull request that executes the code in a workflow." 
+s

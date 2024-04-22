@@ -13,5 +13,3 @@ jobs:
         echo Sha - ${{ github.sha }}
         echo Owner - ${{ github.repository_owner }}
         echo API URL - ${{ github.api_url }}
-        
-

@@ -1,4 +1,4 @@
-# omega.cicd_sbox
+# ghactions
 Yaml examples:
 
 - [Lint & Test](<.github/workflows/01-python-app.yml>)
